@@ -324,11 +324,11 @@
 
 
   
-<div class="border-4 border-white w-full bg-gray-transparent h-fit rounded-lg">
-    <div class="shadow-lg p-2 border-t-transparent border-t-4 border-l-4 border-l-transparent border-transparent-500  text-white text-center rounded-lg">
+<div class="border-4 border-[#00FFFF] w-full bg-gray-transparent h-fit rounded-lg">
+    <div class="shadow-lg p-2 border-t-transparent border-t-4 border-l-4 border-l-transparent border-transparent-500  text-[#07ddf5] text-center rounded-lg">
     <div class="p-2">
         <div>
-            <h2 class="text-2xl">{info.displayName}</h2>
+            <h2 class="text-3xl">{info.displayName}</h2>
         </div>
         <div class="mt-6 space-y-1 text-center">
             <div class="flex justify-center items-center">

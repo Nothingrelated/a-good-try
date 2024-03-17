@@ -1,12 +1,12 @@
 
-export const DAPP_URL = "http://kilobyte.farm";
+export const DAPP_URL = "https://eternal-reflections.xyz/";
 export const DAPP_TITLE = "Eternal Reflections";
 
 export const networkChainId = 369;
 
-export const MASTERCHEF_ADDRESS = "0x546b1c62EF9a60AFeB236a34cd11d13Af896A243";
+export const MASTERCHEF_ADDRESS = " ";
 export const NATIVE_TOKEN_ADDRESS = "0xA1077a294dDE1B09bB078844df40758a5D0f9a27"; //WPLS
-export const FARM_TOKEN_ADDRESS = "0xe54747E58caeeC6EF68f98aEaDcD761fA514021f"; //KB
+export const FARM_TOKEN_ADDRESS = " "; //Yield 
 export const STABLECOIN_ADDRESS = "0xefD766cCb38EaF1dfd701853BFCe31359239F305"; //DAI
 export const ZERO_ADDRESS = "0x0000000000000000000000000000000000000000";
 export const DEAD_ADDRESS = "0x000000000000000000000000000000000000dEaD";
