@@ -20,10 +20,10 @@
     // assets
     import ERS_LOGO from "$lib/assets/banner.png";
     import ERS_LOGO2 from "$lib/assets/astro.png";
-    import BUY_LOGO from "$lib/assets/Buy.png";
-    import MINER_LOGO from "$lib/assets/Miners.png";
+    import BUY_LOGO from "$lib/assets/buy.png";
+    import MINER_LOGO from "$lib/assets/miners.png";
     import CHART_LOGO from "$lib/assets/chart.png";
-    import CONNECT_LOGO from "$lib/assets/Connect.png";
+    import CONNECT_LOGO from "$lib/assets/connect.png";
     import DISCONNECT_LOGO from "$lib/assets/disconnect.png";
 
     import TELEGRAM_ICON from '$lib/assets/telegram_icon.png';
@@ -84,7 +84,7 @@ for example <img src="{CONNECT_LOGO}" alt="Connect Logo" class="mx-auto h-15 w-a
 
 <Toasts />
 
-<div class="border-4 border-transparent bg-transparent-800 max-w-5xl mx-auto mb-6">
+<div class="border-4 border-transparent bg-transparent-800 max-w-6xl mx-auto mb-6">
 <div class="bg-transparent-700"> 
     <div class="mb-8 text-center">
         <img src="{ERS_LOGO}" class="mx-auto h-108 mb-2" alt="ERS logo" />   
@@ -110,29 +110,29 @@ for example <img src="{CONNECT_LOGO}" alt="Connect Logo" class="mx-auto h-15 w-a
         
         <div class="border-2 border-transparent bg-transparent-500 w-full md:w-44  ">
             <a href="https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/?outputCurrency=0x898515c05794e195b4BA11c3e4e5A6d3c2a44FeC" class="block text-s text-white hover:underline">
-                <img src="{BUY_LOGO}" alt="Button Logo" class="mx-auto h-15 w-auto mb-2" />                
+                <img src="{BUY_LOGO}" alt="Button Logo" class="mx-auto h-20 w-auto mb-2" />                
             </a>
         </div>
         <div class="border-2 border-transparent bg-transparent-500 w-full md:w-44  ">
             <a href="https://eternityexplorers.xyz" class="block text-s text-white hover:underline">
-                <img src="{MINER_LOGO}" alt="Miners Logo" class="mx-auto h-15 w-auto mb-2" />  
+                <img src="{MINER_LOGO}" alt="Miners Logo" class="mx-auto h-20 w-auto mb-2" />  
             </a>
         </div>
         
         <div class="border-2 border-transparent bg-transparent-500 w-full md:w-44  ">
             <a href="  " class="block text-s text-white hover:underline">
-                <img src="{CHART_LOGO}" alt="Chart Logo" class="mx-auto h-15 w-auto mb-2" />  
+                <img src="{CHART_LOGO}" alt="Chart Logo" class="mx-auto h-20 w-auto mb-2" />  
             </a>
         </div>
         
         <div class="border-2 border-transparent bg-transparent-500 w-full md:w-44">
             {#if !$connected}
                 <button on:click={() => connectModalOpen = true} class="block text-s text-white hover:underline">
-                    <img src="{CONNECT_LOGO}" alt="Connect Logo" class="mx-auto h-15 w-auto mb-2 connect-box">
+                    <img src="{CONNECT_LOGO}" alt="Connect Logo" class="mx-auto h-20 w-auto mb-2 connect-box">
                 </button>
             {:else}
                 <button on:click={disconnectWagmi} class="block text-s text-white hover:underline">
-                    <img src="{DISCONNECT_LOGO}" alt="Connect Logo" class="mx-auto h-15 w-auto mb-2 connect-box">
+                    <img src="{DISCONNECT_LOGO}" alt="Connect Logo" class="mx-auto h-20 w-auto mb-2 connect-box">
                 </button>
             {/if}
         </div>
