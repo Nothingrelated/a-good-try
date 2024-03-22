@@ -120,7 +120,7 @@ for example <img src="{CONNECT_LOGO}" alt="Connect Logo" class="mx-auto h-15 w-a
         </div>
         
         <div class="border-2 border-transparent bg-transparent-500 w-full md:w-44  ">
-            <a href="  " class="block text-s text-white hover:underline">
+            <a href="https://dexscreener.com/pulsechain/0xb620f728e3c87350ca9360a1c8dccbb2b2e2c801" class="block text-s text-white hover:underline">
                 <img src="{CHART_LOGO}" alt="Chart Logo" class="mx-auto h-20 w-auto mb-2" />  
             </a>
         </div>
