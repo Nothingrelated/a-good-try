@@ -6,7 +6,7 @@ export const networkChainId = 369;
 
 export const MASTERCHEF_ADDRESS = " ";
 export const NATIVE_TOKEN_ADDRESS = "0xA1077a294dDE1B09bB078844df40758a5D0f9a27"; //WPLS
-export const FARM_TOKEN_ADDRESS = "0x898515c05794e195b4BA11c3e4e5A6d3c2a44FeC"; //Yield 
+export const FARM_TOKEN_ADDRESS = "0x898515c05794e195b4ba11c3e4e5a6d3c2a44fec"; //Yield 
 export const STABLECOIN_ADDRESS = "0xefD766cCb38EaF1dfd701853BFCe31359239F305"; //DAI
 export const ZERO_ADDRESS = "0x0000000000000000000000000000000000000000";
 export const DEAD_ADDRESS = "0x000000000000000000000000000000000000dEaD";
@@ -46,7 +46,7 @@ export let farms = [
         lpAbbreviation: 'LP ',
         poolId: 0,
         stakingToken: '0xb620f728e3C87350cA9360a1c8dcCbb2B2e2c801',
-        liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/liquidity',
+        liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/add/V2/0x898515c05794e195b4BA11c3e4e5A6d3c2a44FeC/PLS',
         depositFee: 1,
         withdrawFee: 1,
         poolWeight: 15,
@@ -63,7 +63,7 @@ export let farms = [
         lpAbbreviation: 'LP ',
         poolId: 1,
         stakingToken: '0x80A2fF0E7768AF877FB4e9D57f27CFC4A0865Ddc',
-        liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/liquidity',
+        liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/add/V2/0x3EE45593614D8A7Bed8D89cA5B4c39BA3f29C5a5/PLS',
         depositFee: 1,
         withdrawFee: 1,
         poolWeight: 5,
@@ -80,7 +80,7 @@ export let farms = [
         lpAbbreviation: 'LP',
         poolId: 2,
         stakingToken: '0x574b25664508a1cabd6f1af3eb6386ebde506942',
-        liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/liquidity',
+        liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/add/V2/0x3F34B61FC145bdeC63c75f17deaDBD89e5E7c8af/PLS',
         depositFee: 1,
         withdrawFee: 1,
         poolWeight: 5,
@@ -97,7 +97,7 @@ export let farms = [
         lpAbbreviation: 'LP',
         poolId: 3,
         stakingToken: '0xE56043671df55dE5CDf8459710433C10324DE0aE',
-        liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/liquidity',
+        liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/add/V1/PLS/0xefD766cCb38EaF1dfd701853BFCe31359239F305',
         depositFee: 1,
         withdrawFee: 1,
         poolWeight: 1,
@@ -105,16 +105,16 @@ export let farms = [
         compound: false,
         zaps: false,
         type: Types.Farm,
-        oracle: Oracles.PULSEX_V2
+        oracle: Oracles.PULSEX_V1
     },
 
     {
         orderById: 5,
-        displayName: 'ERSg/GLASS v2',
+        displayName: 'ERSp/SPARK v2',
         lpAbbreviation: 'LP ',
         poolId: 4,
-        stakingToken: '0x2fd98d81903eaee4b2ce8ef664363ce9050d9e51',
-        liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/liquidity',
+        stakingToken: '0xe2c487b60dBFB5eA213f8cA6532D4c08d7842D3A',
+        liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/add/V2/0x3F34B61FC145bdeC63c75f17deaDBD89e5E7c8af/0x6386704cD6f7A584EA9D23cccA66aF7EBA5a727e',
         depositFee: 1,
         withdrawFee: 1,
         poolWeight: 1,
@@ -128,11 +128,11 @@ export let farms = [
     
     {
         orderById: 6,
-        displayName: 'ERSp/SPARK v2',
+        displayName: 'Abyss/SPARK v2',
         lpAbbreviation: 'LP',
         poolId: 5,
-        stakingToken: '0xe2c487b60dBFB5eA213f8cA6532D4c08d7842D3A',
-        liquidityLink: 'https://dex.dextop.pro/add/',
+        stakingToken: '0x242E5796E8B0A6A429562EfB086949a293e09cF0',
+        liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/add/V2/0x6386704cD6f7A584EA9D23cccA66aF7EBA5a727e/0x898515c05794e195b4BA11c3e4e5A6d3c2a44FeC',
         depositFee: 1,
         withdrawFee: 1,
         poolWeight: 2,
@@ -140,7 +140,7 @@ export let farms = [
         compound: false,
         zaps: false,
         type: Types.Pool,
-        oracle: Oracles.PULSEX_V1
+        oracle: Oracles.PULSEX_V2
     },
 
     {
@@ -149,7 +149,7 @@ export let farms = [
         lpAbbreviation: 'SPARK',
         poolId: 6,
         stakingToken: '0x6386704cD6f7A584EA9D23cccA66aF7EBA5a727e',
-        liquidityLink: 'https://dex.dextop.pro/add/',
+        liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/?outputCurrency=0x6386704cD6f7A584EA9D23cccA66aF7EBA5a727e',
         depositFee: 1,
         withdrawFee: 1,
         poolWeight: 2,
@@ -166,7 +166,7 @@ export let farms = [
         lpAbbreviation: 'Glass',
         poolId: 7,
         stakingToken: '0xd687FF2C9C5294f4A2bC0300B46eA921dB312063',
-        liquidityLink: 'https://dex.dextop.pro/add/',
+        liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/?outputCurrency=0xd687FF2C9C5294f4A2bC0300B46eA921dB312063',
         depositFee: 1,
         withdrawFee: 1,
         poolWeight: 2,
@@ -183,7 +183,7 @@ export let farms = [
         lpAbbreviation: 'pWETH',
         poolId: 8,
         stakingToken: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
-        liquidityLink: 'https://dex.dextop.pro/add/',
+        liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/?outputCurrency=0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
         depositFee: 1,
         withdrawFee: 1,
         poolWeight: 2,
@@ -191,7 +191,7 @@ export let farms = [
         compound: false,
         zaps: false,
         type: Types.Pool,
-        oracle: Oracles.PULSEX_V1
+        oracle: Oracles.PULSEX_V2
     },
 
     {
@@ -200,7 +200,7 @@ export let farms = [
         lpAbbreviation: 'EMP',
         poolId: 9,
         stakingToken: '0x9231937aC31506B6913ac5fb1DB5a1C1AE83783A',
-        liquidityLink: 'https://dex.dextop.pro/add/',
+        liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/?outputCurrency=0x9231937aC31506B6913ac5fb1DB5a1C1AE83783A',
         depositFee: 1,
         withdrawFee: 1,
         poolWeight: 2,
@@ -208,7 +208,7 @@ export let farms = [
         compound: false,
         zaps: false,
         type: Types.Pool,
-        oracle: Oracles.PULSEX_V1
+        oracle: Oracles.PULSEX_V2
     },
 
     {
@@ -217,7 +217,7 @@ export let farms = [
         lpAbbreviation: 'pDAI',
         poolId: 10,
         stakingToken: '0x9231937aC31506B6913ac5fb1DB5a1C1AE83783A',
-        liquidityLink: 'https://dex.dextop.pro/add/',
+        liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/?outputCurrency=0x6B175474E89094C44Da98b954EedeAC495271d0F',
         depositFee: 1,
         withdrawFee: 1,
         poolWeight: 2,
@@ -234,7 +234,7 @@ export let farms = [
         lpAbbreviation: 'Bananas',
         poolId: 11,
         stakingToken: '0xC6B28B2E3Bf9fF26299D540a4D654F7ade4dFdB0',
-        liquidityLink: 'https://dex.dextop.pro/add/',
+        liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/?outputCurrency=0xC6B28B2E3Bf9fF26299D540a4D654F7ade4dFdB0',
         depositFee: 1,
         withdrawFee: 1,
         poolWeight: 2,
@@ -242,7 +242,7 @@ export let farms = [
         compound: false,
         zaps: false,
         type: Types.Pool,
-        oracle: Oracles.PULSEX_V1
+        oracle: Oracles.PULSEX_V2
     }
 
 
