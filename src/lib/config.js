@@ -1,6 +1,6 @@
 
 export const DAPP_URL = "https://eternal-reflections.xyz/";
-export const DAPP_TITLE = "Eternal Reflections";
+export const DAPP_TITLE = "Eternal Reflections ERS Official Staking Ecosystem";
 
 export const networkChainId = 369;
 
