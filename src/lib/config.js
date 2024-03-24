@@ -4,7 +4,7 @@ export const DAPP_TITLE = "Eternal Reflections ERS Official Staking Ecosystem";
 
 export const networkChainId = 369;
 
-export const MASTERCHEF_ADDRESS = "";
+export const MASTERCHEF_ADDRESS = "0xE27bF313710416ec341201D681259c36Cd88F70A";
 export const NATIVE_TOKEN_ADDRESS = "0xA1077a294dDE1B09bB078844df40758a5D0f9a27"; //WPLS
 export const FARM_TOKEN_ADDRESS = "0x898515c05794e195b4ba11c3e4e5a6d3c2a44fec"; //Yield 
 export const STABLECOIN_ADDRESS = "0xefD766cCb38EaF1dfd701853BFCe31359239F305"; //DAI
@@ -49,7 +49,7 @@ export let farms = [
         liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/add/V2/0x898515c05794e195b4BA11c3e4e5A6d3c2a44FeC/PLS',
         depositFee: 1,
         withdrawFee: 1,
-        poolWeight: 10,
+        poolWeight: 5,
         isActive: true,
         compound: false,
         zaps: false,
