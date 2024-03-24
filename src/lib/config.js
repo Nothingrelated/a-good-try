@@ -4,7 +4,7 @@ export const DAPP_TITLE = "Eternal Reflections ERS Official Staking Ecosystem";
 
 export const networkChainId = 369;
 
-export const MASTERCHEF_ADDRESS = "0x9A5fa67fBd1609a2891Ca0A13a35a450970A9aC2";
+export const MASTERCHEF_ADDRESS = "";
 export const NATIVE_TOKEN_ADDRESS = "0xA1077a294dDE1B09bB078844df40758a5D0f9a27"; //WPLS
 export const FARM_TOKEN_ADDRESS = "0x898515c05794e195b4ba11c3e4e5a6d3c2a44fec"; //Yield 
 export const STABLECOIN_ADDRESS = "0xefD766cCb38EaF1dfd701853BFCe31359239F305"; //DAI
