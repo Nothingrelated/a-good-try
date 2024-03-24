@@ -4,7 +4,7 @@ export const DAPP_TITLE = "Eternal Reflections ERS Official Staking Ecosystem";
 
 export const networkChainId = 369;
 
-export const MASTERCHEF_ADDRESS = " ";
+export const MASTERCHEF_ADDRESS = "0x9A5fa67fBd1609a2891Ca0A13a35a450970A9aC2";
 export const NATIVE_TOKEN_ADDRESS = "0xA1077a294dDE1B09bB078844df40758a5D0f9a27"; //WPLS
 export const FARM_TOKEN_ADDRESS = "0x898515c05794e195b4ba11c3e4e5a6d3c2a44fec"; //Yield 
 export const STABLECOIN_ADDRESS = "0xefD766cCb38EaF1dfd701853BFCe31359239F305"; //DAI
@@ -49,7 +49,7 @@ export let farms = [
         liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/add/V2/0x898515c05794e195b4BA11c3e4e5A6d3c2a44FeC/PLS',
         depositFee: 1,
         withdrawFee: 1,
-        poolWeight: 15,
+        poolWeight: 10,
         isActive: true,
         compound: false,
         zaps: false,
@@ -62,7 +62,7 @@ export let farms = [
         displayName: 'ERSg/Pls v2',
         lpAbbreviation: 'LP ',
         poolId: 1,
-        stakingToken: '0x80A2fF0E7768AF877FB4e9D57f27CFC4A0865Ddc',
+        stakingToken: '0x574B25664508A1CAbd6f1aF3EB6386EBDe506942',
         liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/add/V2/0x3EE45593614D8A7Bed8D89cA5B4c39BA3f29C5a5/PLS',
         depositFee: 1,
         withdrawFee: 1,
@@ -79,7 +79,7 @@ export let farms = [
         displayName: 'ERSp/PLS v2',
         lpAbbreviation: 'LP',
         poolId: 2,
-        stakingToken: '0x574b25664508a1cabd6f1af3eb6386ebde506942',
+        stakingToken: '0x80A2fF0E7768AF877FB4e9D57f27CFC4A0865Ddc',
         liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/add/V2/0x3F34B61FC145bdeC63c75f17deaDBD89e5E7c8af/PLS',
         depositFee: 1,
         withdrawFee: 1,
@@ -100,7 +100,7 @@ export let farms = [
         liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/add/V1/PLS/0xefD766cCb38EaF1dfd701853BFCe31359239F305',
         depositFee: 1,
         withdrawFee: 1,
-        poolWeight: 1,
+        poolWeight: 3,
         isActive: true,
         compound: false,
         zaps: false,
@@ -117,7 +117,7 @@ export let farms = [
         liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/add/V2/0x3F34B61FC145bdeC63c75f17deaDBD89e5E7c8af/0x6386704cD6f7A584EA9D23cccA66aF7EBA5a727e',
         depositFee: 1,
         withdrawFee: 1,
-        poolWeight: 1,
+        poolWeight: 3,
         isActive: true,
         compound: false,
         zaps: false,
@@ -135,11 +135,11 @@ export let farms = [
         liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/add/V2/0x6386704cD6f7A584EA9D23cccA66aF7EBA5a727e/0x898515c05794e195b4BA11c3e4e5A6d3c2a44FeC',
         depositFee: 1,
         withdrawFee: 1,
-        poolWeight: 2,
+        poolWeight: 3,
         isActive: true,
         compound: false,
         zaps: false,
-        type: Types.Pool,
+        type: Types.Farm,
         oracle: Oracles.PULSEX_V2
     },
 
@@ -186,7 +186,7 @@ export let farms = [
         liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/?outputCurrency=0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
         depositFee: 1,
         withdrawFee: 1,
-        poolWeight: 2,
+        poolWeight: 1,
         isActive: true,
         compound: false,
         zaps: false,
@@ -216,11 +216,11 @@ export let farms = [
         displayName: 'pDAI',
         lpAbbreviation: 'pDAI',
         poolId: 10,
-        stakingToken: '0x9231937aC31506B6913ac5fb1DB5a1C1AE83783A',
+        stakingToken: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
         liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/?outputCurrency=0x6B175474E89094C44Da98b954EedeAC495271d0F',
         depositFee: 1,
         withdrawFee: 1,
-        poolWeight: 2,
+        poolWeight: 1,
         isActive: true,
         compound: false,
         zaps: false,
