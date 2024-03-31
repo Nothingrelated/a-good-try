@@ -108,24 +108,24 @@ for example <img src="{CONNECT_LOGO}" alt="Connect Logo" class="mx-auto h-15 w-a
      
     <div class="mx-auto text-center w-full md:w-fit space-x-0 md:space-x-2 space-y-1 md:space-y-0 flex flex-col md:flex-row">
         
-        <div class="border-2 border-transparent bg-transparent-500 w-full md:w-44  ">
+        <div class="border-2 border-[#00FFFF] bg-[#000000a3] w-full md:w-44 rounded">
             <a href="https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/?outputCurrency=0x898515c05794e195b4BA11c3e4e5A6d3c2a44FeC" class="block text-s text-white hover:underline">
                 <img src="{BUY_LOGO}" alt="Button Logo" class="mx-auto h-20 w-auto mb-2" />                
             </a>
         </div>
-        <div class="border-2 border-transparent bg-transparent-500 w-full md:w-44  ">
+        <div class="border-2 border-[#00FFFF] bg-[#000000a3] w-full md:w-44 rounded">
             <a href="https://eternityexplorers.xyz" class="block text-s text-white hover:underline">
                 <img src="{MINER_LOGO}" alt="Miners Logo" class="mx-auto h-20 w-auto mb-2" />  
             </a>
         </div>
         
-        <div class="border-2 border-transparent bg-transparent-500 w-full md:w-44  ">
+        <div class="border-2 border-[#00FFFF] bg-[#000000a3] w-full md:w-44 rounded">
             <a href="https://dexscreener.com/pulsechain/0xb620f728e3c87350ca9360a1c8dccbb2b2e2c801" class="block text-s text-white hover:underline">
                 <img src="{CHART_LOGO}" alt="Chart Logo" class="mx-auto h-20 w-auto mb-2" />  
             </a>
         </div>
         
-        <div class="border-2 border-transparent bg-transparent-500 w-full md:w-44">
+        <div class="border-2 border-[#00FFFF] bg-[#000000a3] w-full md:w-44 rounded">
             {#if !$connected}
                 <button on:click={() => connectModalOpen = true} class="block text-s text-white hover:underline">
                     <img src="{CONNECT_LOGO}" alt="Connect Logo" class="mx-auto h-20 w-auto mb-2 connect-box">
